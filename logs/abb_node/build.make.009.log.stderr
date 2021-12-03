@@ -1,0 +1,7 @@
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:1:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/../include/abb_node_moveit.h:17:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before '[01m[K{[m[K' token
+ [01;31m[K{[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/abb_node_moveit.dir/src/abb_node_moveit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_node_moveit.dir/all] Error 2
+make: *** [all] Error 2

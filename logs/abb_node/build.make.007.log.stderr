@@ -1,0 +1,11 @@
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:[m[K In member function '[01m[Kvoid ActionWrapper::Trajectory_Callback()[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:28:3:[m[K [01;31m[Kerror: [m[K'[01m[KTrajectory_Client[m[K' was not declared in this scope
+   [01;31m[KTrajectory_Client[m[K.acceptNewGoal();
+   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:28:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KTrajectory_Callback[m[K'
+   [01;36m[KTrajectory_Client[m[K.acceptNewGoal();
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+   [32m[KTrajectory_Callback[m[K
+make[2]: *** [CMakeFiles/abb_node_moveit.dir/src/abb_node_moveit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_node_moveit.dir/all] Error 2
+make: *** [all] Error 2

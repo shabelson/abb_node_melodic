@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/melodic/include/simple_message/socket/tcp_socket.h:36:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/simple_message/socket/tcp_client.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/industrial_robot_client/joint_trajectory_interface.h:44[m[K,
+                 from [01m[K/opt/ros/melodic/include/industrial_robot_client/joint_trajectory_downloader.h:35[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_node/src/../include/abb_node_moveit.h:10[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/simple_message/socket/simple_socket.h:205:3:[m[K [01;31m[Kerror: [m[K'[01m[Ksockaddr_in[m[K' does not name a type; did you mean '[01m[Kcaddr_t[m[K'?
+   [01;31m[Ksockaddr_in[m[K sockaddr_;
+   [01;31m[K^~~~~~~~~~~[m[K
+   [32m[Kcaddr_t[m[K
+[01m[K/opt/ros/melodic/include/simple_message/socket/simple_socket.h:[m[K In constructor '[01m[Kindustrial::simple_socket::SimpleSocket::SimpleSocket()[m[K':
+[01m[K/opt/ros/melodic/include/simple_message/socket/simple_socket.h:159:19:[m[K [01;31m[Kerror: [m[K'[01m[Kclass industrial::simple_socket::SimpleSocket[m[K' has no member named '[01m[Ksockaddr_[m[K'; did you mean '[01m[Ksock_handle_[m[K'?
+     memset(&this->[01;31m[Ksockaddr_[m[K, 0, sizeof(this->sockaddr_));
+                   [01;31m[K^~~~~~~~~[m[K
+                   [32m[Ksock_handle_[m[K
+[01m[K/opt/ros/melodic/include/simple_message/socket/simple_socket.h:159:46:[m[K [01;31m[Kerror: [m[K'[01m[Kclass industrial::simple_socket::SimpleSocket[m[K' has no member named '[01m[Ksockaddr_[m[K'; did you mean '[01m[Ksock_handle_[m[K'?
+     memset(&this->sockaddr_, 0, sizeof(this->[01;31m[Ksockaddr_[m[K));
+                                              [01;31m[K^~~~~~~~~[m[K
+                                              [32m[Ksock_handle_[m[K
+make[2]: *** [CMakeFiles/abb_node_moveit.dir/src/abb_node_moveit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_node_moveit.dir/all] Error 2
+make: *** [all] Error 2

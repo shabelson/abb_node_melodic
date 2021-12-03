@@ -1,0 +1,13 @@
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:45:2:[m[K [01;31m[Kerror: [m[K'[01m[Kros::ServiceClient[m[K' is not a template
+  [01;31m[Kros[m[K::ServiceClient <abb_node::robot_Ping>SClient_Ping;
+  [01;31m[K^~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:45:2:[m[K [01;31m[Kerror: [m[K'[01m[Kros::ServiceClient[m[K' is not a template
+  [01;31m[Kros[m[K::ServiceClient <abb_node::robot_Ping>SClient_Ping;
+  [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

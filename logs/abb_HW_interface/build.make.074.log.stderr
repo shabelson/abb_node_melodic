@@ -1,0 +1,22 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In constructor '[01m[Kabb_120_ns::AbbHWInterface::AbbHWInterface(ros::NodeHandle&, urdf::Model*)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:8:1:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in '[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::ConstPtr& {aka class boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >&}[m[K' [[01;31m[K-fpermissive[m[K]
+ [01;31m[KAbbHWInterface[m[K::AbbHWInterface(ros::NodeHandle& nh, urdf::Model* urdf_model)
+ [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:56:41:[m[K [01;36m[Knote: [m[K'[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::ConstPtr& abb_120_ns::AbbHWInterface::iCPose[m[K' should be initialized
+   geometry_msgs::PoseStamped::ConstPtr& [01;36m[KiCPose[m[K;
+                                         [01;36m[K^~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:8:1:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in '[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::ConstPtr& {aka class boost::shared_ptr<const geometry_msgs::WrenchStamped_<std::allocator<void> > >&}[m[K' [[01;31m[K-fpermissive[m[K]
+ [01;31m[KAbbHWInterface[m[K::AbbHWInterface(ros::NodeHandle& nh, urdf::Model* urdf_model)
+ [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:60:43:[m[K [01;36m[Knote: [m[K'[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::ConstPtr& abb_120_ns::AbbHWInterface::iWrench[m[K' should be initialized
+   geometry_msgs::WrenchStamped::ConstPtr& [01;36m[KiWrench[m[K;
+                                           [01;36m[K^~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::HandleForceLog(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:95:8:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[Kthis[m[K'
+ static [01;31m[Kthis[m[K->iWrench.reset();
+        [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

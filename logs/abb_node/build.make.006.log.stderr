@@ -1,0 +1,26 @@
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:1:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/../include/abb_node_moveit.h:[m[K In constructor '[01m[KActionWrapper::ActionWrapper(std::__cxx11::string)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/../include/abb_node_moveit.h:40:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kactionlib::SimpleActionClient<control_msgs::FollowJointTrajectoryAction_<std::allocator<void> > >::SimpleActionClient(ros::NodeHandle&, std::__cxx11::string&, boost::_bi::bind_t<void, boost::_mfi::mf1<void, ActionWrapper, const boost::shared_ptr<const control_msgs::FollowJointTrajectoryGoal_<std::allocator<void> > >&>, boost::_bi::list2<boost::_bi::value<ActionWrapper*>, boost::arg<1> > >, bool)[m[K'
+   ,actionName(name[01;31m[K)[m[K
+                   [01;31m[K^[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_node/src/../include/abb_node_moveit.h:18:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:109:3:[m[K [01;36m[Knote: [m[Kcandidate: actionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(ros::NodeHandle&, const string&, bool) [with ActionSpec = control_msgs::FollowJointTrajectoryAction_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   [01;36m[KSimpleActionClient[m[K(ros::NodeHandle & n, const std::string & name, bool spin_thread = true)
+   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:109:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:93:3:[m[K [01;36m[Knote: [m[Kcandidate: actionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(const string&, bool) [with ActionSpec = control_msgs::FollowJointTrajectoryAction_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   [01;36m[KSimpleActionClient[m[K(const std::string & name, bool spin_thread = true)
+   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:93:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:1:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/../include/abb_node_moveit.h:43:22:[m[K [01;31m[Kerror: [m[K'[01m[Kclass actionlib::SimpleActionClient<control_msgs::FollowJointTrajectoryAction_<std::allocator<void> > >[m[K' has no member named '[01m[Kstart[m[K'
+    Trajectory_Client.[01;31m[Kstart[m[K();
+                      [01;31m[K^~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:[m[K In member function '[01m[Kvoid ActionWrapper::Trajectory_Callback()[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_node/src/abb_node_moveit.cpp:28:21:[m[K [01;31m[Kerror: [m[K'[01m[Kclass actionlib::SimpleActionClient<control_msgs::FollowJointTrajectoryAction_<std::allocator<void> > >[m[K' has no member named '[01m[KacceptNewGoal[m[K'
+   Trajectory_Client.[01;31m[KacceptNewGoal[m[K();
+                     [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/abb_node_moveit.dir/src/abb_node_moveit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_node_moveit.dir/all] Error 2
+make: *** [all] Error 2

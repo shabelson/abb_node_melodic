@@ -1,0 +1,16 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:8:76:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of '[01m[KSimHWInterface[m[K' with no type [[01;31m[K-fpermissive[m[K]
+ AbbHWInterface::SimHWInterface(ros::NodeHandle& nh, urdf::Model* urdf_model[01;31m[K)[m[K
+                                                                            [01;31m[K^[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:8:76:[m[K [01;31m[Kerror: [m[Kno '[01m[Kint abb_120_ns::AbbHWInterface::SimHWInterface(ros::NodeHandle&, urdf::Model*)[m[K' member function declared in class '[01m[Kabb_120_ns::AbbHWInterface[m[K'
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvirtual void abb_120_ns::AbbHWInterface::init()[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:20:3:[m[K [01;31m[Kerror: [m[K'[01m[Kjoint_position_prev_[m[K' was not declared in this scope
+   [01;31m[Kjoint_position_prev_[m[K.resize(num_joints_, 0.0);
+   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:20:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kjoint_position_[m[K'
+   [01;36m[Kjoint_position_prev_[m[K.resize(num_joints_, 0.0);
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+   [32m[Kjoint_position_[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

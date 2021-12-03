@@ -1,0 +1,12 @@
+CMake Warning at /home/shabelson/st4_ws/build/abb_HW_interface/cmake/abb_HW_interface-genmsg.cmake:3 (message):
+  Invoking generate_messages() without having added any message or service
+  file before.
+
+  You should either add add_message_files() and/or add_service_files() calls
+  or remove the invocation of generate_messages().
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:78 (generate_messages)
+
+
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.

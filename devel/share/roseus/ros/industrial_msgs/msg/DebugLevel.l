@@ -1,0 +1,1 @@
+/home/shabelson/st4_ws/devel/.private/industrial_msgs/share/roseus/ros/industrial_msgs/msg/DebugLevel.l

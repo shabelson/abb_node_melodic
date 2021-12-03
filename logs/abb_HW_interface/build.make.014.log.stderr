@@ -1,0 +1,15 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:21:3:[m[K [01;31m[Kerror: [m[K'[01m[KGenericHWControlLoop[m[K' was not declared in this scope
+   [01;31m[KGenericHWControlLoop[m[K control_loop(nh,abb_hw_interface);
+   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:21:3:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;36m[Knote: [m[K  '[01m[Kros_control_boilerplate::GenericHWControlLoop[m[K'
+ class [01;36m[KGenericHWControlLoop[m[K
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:22:3:[m[K [01;31m[Kerror: [m[K'[01m[Kcontrol_loop[m[K' was not declared in this scope
+   [01;31m[Kcontrol_loop[m[K.run();  // Blocks until shutdown signal recieved
+   [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

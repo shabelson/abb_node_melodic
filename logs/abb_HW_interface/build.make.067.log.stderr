@@ -1,0 +1,11 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::CartesianLogCallback(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:80:9:[m[K [01;31m[Kerror: [m[K'[01m[Kclass abb_120_ns::AbbHWInterface[m[K' has no member named '[01m[KiCPose[m[K'
+   this->[01;31m[KiCPose[m[K = msg->pose;
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::HandleForceLog(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:7:[m[K [01;31m[Kerror: [m[K'[01m[Kclass abb_120_ns::AbbHWInterface[m[K' has no member named '[01m[KiWrench[m[K'
+ this->[01;31m[KiWrench[m[K = msg->wrench;
+       [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

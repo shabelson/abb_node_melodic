@@ -1,0 +1,18 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:21:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(ros::NodeHandle&, std::shared_ptr<abb_120_ns::AbbHWInterface>&)[m[K'
+   ros_control_boilerplate::GenericHWControlLoop control_loop (nh,abb_hw_interface[01;31m[K)[m[K;
+                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:64:3:[m[K [01;36m[Knote: [m[Kcandidate: ros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(ros::NodeHandle&, boost::shared_ptr<hardware_interface::RobotHW>)
+   [01;36m[KGenericHWControlLoop[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:64:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kstd::shared_ptr<abb_120_ns::AbbHWInterface>[m[K' to '[01m[Kboost::shared_ptr<hardware_interface::RobotHW>[m[K'
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;36m[Knote: [m[Kcandidate: ros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(const ros_control_boilerplate::GenericHWControlLoop&)
+ class [01;36m[KGenericHWControlLoop[m[K
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;36m[Knote: [m[Kcandidate: ros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(ros_control_boilerplate::GenericHWControlLoop&&)
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,94 @@
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target control_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target control_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target control_msgs_generate_messages_nodejs
+[  0%] Built target control_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target control_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target industrial_msgs_generate_messages_py
+[  0%] Built target controller_manager_msgs_generate_messages_nodejs
+[  0%] Built target controller_manager_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target abb_node_generate_messages_lisp
+[  0%] Built target control_toolbox_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target controller_manager_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target controller_manager_msgs_generate_messages_lisp
+[  0%] Built target controller_manager_msgs_generate_messages_eus
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target control_toolbox_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target industrial_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target control_toolbox_gencfg
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target industrial_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target control_toolbox_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target industrial_msgs_generate_messages_nodejs
+[  0%] Built target control_toolbox_generate_messages_py
+[  0%] Built target control_toolbox_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target abb_node_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target abb_node_generate_messages_cpp
+[  0%] Built target abb_node_generate_messages_nodejs
+[  0%] Built target abb_node_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target industrial_msgs_generate_messages_lisp
+[  0%] Built target abb_HW_interface_generate_messages_py
+[  0%] Built target abb_HW_interface_generate_messages_lisp
+[  0%] Built target abb_HW_interface_generate_messages_cpp
+[ 25%] Built target abb_HW_interface_generate_messages_eus
+[ 25%] Built target abb_HW_interface_generate_messages_nodejs
+[35m[1mScanning dependencies of target abb_hw_main[0m
+[ 25%] Built target abb_HW_interface_generate_messages
+[ 50%] [32mBuilding CXX object CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o[0m
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvirtual void abb_120_ns::AbbHWInterface::read(ros::Duration&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:124:29:[m[K [01;31m[Kerror: [m[Kno match for call to '[01m[K(ros::ServiceClient) (abb_node::robot_GetJoints::Response&)[m[K'
+   SClient_GetJoints(jointMsg[01;31m[K)[m[K;
+                             [01;31m[K^[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:125:28:[m[K [01;31m[Kerror: [m[Kno match for call to '[01m[K(ros::ServiceClient) (abb_node::robot_IsMoving::Response&)[m[K'
+   SClient_IsMoving(isMoving[01;31m[K)[m[K;
+                            [01;31m[K^[m[K
+CMakeFiles/abb_hw_main.dir/build.make:62: recipe for target 'CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o' failed
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+CMakeFiles/Makefile2:1805: recipe for target 'CMakeFiles/abb_hw_main.dir/all' failed
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

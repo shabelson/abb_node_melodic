@@ -1,0 +1,6 @@
+CMake Error at /home/shabelson/st4_ws/src/abb_node/CMakeLists.txt:166 (target_compile_definitions):
+  Cannot specify compile definitions for target "abb_node_robot_state" which
+  is not built by this project.
+
+
+make: *** [cmake_check_build_system] Error 1

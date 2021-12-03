@@ -1,0 +1,16 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:35:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+/opt/ros/melodic/include/ros/service_client.h: In instantiation of '[01m[Kbool ros::ServiceClient::call(Service&) [with Service = abb_node::robot_IsMovingRequest_<std::allocator<void> >][m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:125:33:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/service_client.h:91:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstruct abb_node::robot_IsMovingRequest_<std::allocator<void> >[m[K' has no member named '[01m[Krequest[m[K'
+     return call([01;31m[Kservice.request[m[K, service.response, st::md5sum(service));
+                 [01;31m[K~~~~~~~~^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/service_client.h:91:42:[m[K [01;31m[Kerror: [m[K'[01m[Kstruct abb_node::robot_IsMovingRequest_<std::allocator<void> >[m[K' has no member named '[01m[Kresponse[m[K'
+     return call(service.request, [01;31m[Kservice.response[m[K, st::md5sum(service));
+                                  [01;31m[K~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

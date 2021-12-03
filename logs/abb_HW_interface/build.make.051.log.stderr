@@ -1,0 +1,15 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:16:111:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type '[01m[Kabb_120_ns::AbbHWInterface[m[K'
+   std::shared_ptr<abb_120_ns::AbbHWInterface> abb_hw_interface_instance(new abb_120_ns::AbbHWInterface(nh,NULL[01;31m[K)[m[K);
+                                                                                                               [01;31m[K^[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:14:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within '[01m[Kabb_120_ns::AbbHWInterface[m[K':
+ class [01;36m[KAbbHWInterface[m[K : public ros_control_boilerplate::GenericHWInterface
+       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:22:3:[m[K [01;36m[Knote: [m[K	virtual abb_120_ns::AbbHWInterface::~AbbHWInterface()
+   [01;36m[K~[m[KAbbHWInterface(void) =0;
+   [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

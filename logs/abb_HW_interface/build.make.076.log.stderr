@@ -1,0 +1,19 @@
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:56:50:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type '[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::ConstPtr& {aka boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >&}[m[K' from an rvalue of type '[01m[Kstd::nullptr_t[m[K'
+   geometry_msgs::PoseStamped::ConstPtr& iCPose = [01;31m[Knullptr[m[K;
+                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:60:53:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type '[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::ConstPtr& {aka boost::shared_ptr<const geometry_msgs::WrenchStamped_<std::allocator<void> > >&}[m[K' from an rvalue of type '[01m[Kstd::nullptr_t[m[K'
+   geometry_msgs::WrenchStamped::ConstPtr& iWrench = [01;31m[Knullptr[m[K;
+                                                     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:56:50:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type '[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::ConstPtr& {aka boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >&}[m[K' from an rvalue of type '[01m[Kstd::nullptr_t[m[K'
+   geometry_msgs::PoseStamped::ConstPtr& iCPose = [01;31m[Knullptr[m[K;
+                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:60:53:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type '[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::ConstPtr& {aka boost::shared_ptr<const geometry_msgs::WrenchStamped_<std::allocator<void> > >&}[m[K' from an rvalue of type '[01m[Kstd::nullptr_t[m[K'
+   geometry_msgs::WrenchStamped::ConstPtr& iWrench = [01;31m[Knullptr[m[K;
+                                                     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,11 @@
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o: In function `abb_120_ns::AbbHWInterface::AbbHWInterface(ros::NodeHandle&, urdf::Model*)':
+/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:9: undefined reference to `vtable for abb_120_ns::AbbHWInterface'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/shabelson/st4_ws/devel/.private/abb_HW_interface/lib/abb_HW_interface/abb_hw_main] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

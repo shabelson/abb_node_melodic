@@ -1,0 +1,135 @@
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:56:31:[m[K [01;31m[Kerror: [m[K'[01m[Kpose[m[K' in '[01m[Kgeometry_msgs::PoseStamped {aka struct geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' does not name a type
+   geometry_msgs::PoseStamped::[01;31m[Kpose[m[K iCPose;
+                               [01;31m[K^~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:11:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/geometry_msgs/PoseStamped.h:44:14:[m[K [01;36m[Knote: [m[K'[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::pose[m[K' declared here
+   _pose_type [01;36m[Kpose[m[K;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:57:28:[m[K [01;31m[Kerror: [m[K'[01m[Keffort[m[K' in '[01m[Ksensor_msgs::JointState {aka struct sensor_msgs::JointState_<std::allocator<void> >}[m[K' does not name a type
+   sensor_msgs::JointState::[01;31m[Keffort[m[K iEffort;
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:10:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/sensor_msgs/JointState.h:58:16:[m[K [01;36m[Knote: [m[K'[01m[Ksensor_msgs::JointState_<std::allocator<void> >::effort[m[K' declared here
+   _effort_type [01;36m[Keffort[m[K;
+                [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:58:28:[m[K [01;31m[Kerror: [m[K'[01m[Kposition[m[K' in '[01m[Ksensor_msgs::JointState {aka struct sensor_msgs::JointState_<std::allocator<void> >}[m[K' does not name a type
+   sensor_msgs::JointState::[01;31m[Kposition[m[K iJPose;
+                            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:10:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/sensor_msgs/JointState.h:52:18:[m[K [01;36m[Knote: [m[K'[01m[Ksensor_msgs::JointState_<std::allocator<void> >::position[m[K' declared here
+   _position_type [01;36m[Kposition[m[K;
+                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:59:28:[m[K [01;31m[Kerror: [m[K'[01m[Kvelocity[m[K' in '[01m[Ksensor_msgs::JointState {aka struct sensor_msgs::JointState_<std::allocator<void> >}[m[K' does not name a type
+   sensor_msgs::JointState::[01;31m[Kvelocity[m[K iVel;
+                            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:10:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/sensor_msgs/JointState.h:55:18:[m[K [01;36m[Knote: [m[K'[01m[Ksensor_msgs::JointState_<std::allocator<void> >::velocity[m[K' declared here
+   _velocity_type [01;36m[Kvelocity[m[K;
+                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:60:33:[m[K [01;31m[Kerror: [m[K'[01m[Kwrench[m[K' in '[01m[Kgeometry_msgs::WrenchStamped {aka struct geometry_msgs::WrenchStamped_<std::allocator<void> >}[m[K' does not name a type
+   geometry_msgs::WrenchStamped::[01;31m[Kwrench[m[K iWrench;
+                                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:12:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/geometry_msgs/WrenchStamped.h:44:16:[m[K [01;36m[Knote: [m[K'[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::wrench[m[K' declared here
+   _wrench_type [01;36m[Kwrench[m[K;
+                [01;36m[K^~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::CartesianLogCallback(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:80:9:[m[K [01;31m[Kerror: [m[K'[01m[Kclass abb_120_ns::AbbHWInterface[m[K' has no member named '[01m[KiCPose[m[K'
+   this->[01;31m[KiCPose[m[K = msg->pose;
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::HandleJointCallback(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:90:39:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator=[m[K' (operand types are '[01m[Kstd::vector<double>[m[K' and '[01m[Kconst value_type {aka const double}[m[K')
+   joint_velocity_    = msg->velocity[i[01;31m[K][m[K ;
+                                       [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:69:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/c++/7/bits/vector.tcc:179:5:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]
+     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/vector.tcc:179:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst value_type {aka const double}[m[K' to '[01m[Kconst std::vector<double>&[m[K'
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:461:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>]
+       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:461:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst value_type {aka const double}[m[K' to '[01m[Kstd::vector<double>&&[m[K'
+[01m[K/usr/include/c++/7/bits/stl_vector.h:482:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>]
+       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:482:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst value_type {aka const double}[m[K' to '[01m[Kstd::initializer_list<double>[m[K'
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::HandleForceLog(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:7:[m[K [01;31m[Kerror: [m[K'[01m[Kclass abb_120_ns::AbbHWInterface[m[K' has no member named '[01m[KiWrench[m[K'
+ this->[01;31m[KiWrench[m[K = msg->wrench;
+       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:56:31:[m[K [01;31m[Kerror: [m[K'[01m[Kpose[m[K' in '[01m[Kgeometry_msgs::PoseStamped {aka struct geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' does not name a type
+   geometry_msgs::PoseStamped::[01;31m[Kpose[m[K iCPose;
+                               [01;31m[K^~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:11:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/geometry_msgs/PoseStamped.h:44:14:[m[K [01;36m[Knote: [m[K'[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::pose[m[K' declared here
+   _pose_type [01;36m[Kpose[m[K;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:57:28:[m[K [01;31m[Kerror: [m[K'[01m[Keffort[m[K' in '[01m[Ksensor_msgs::JointState {aka struct sensor_msgs::JointState_<std::allocator<void> >}[m[K' does not name a type
+   sensor_msgs::JointState::[01;31m[Keffort[m[K iEffort;
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:10:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/sensor_msgs/JointState.h:58:16:[m[K [01;36m[Knote: [m[K'[01m[Ksensor_msgs::JointState_<std::allocator<void> >::effort[m[K' declared here
+   _effort_type [01;36m[Keffort[m[K;
+                [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:58:28:[m[K [01;31m[Kerror: [m[K'[01m[Kposition[m[K' in '[01m[Ksensor_msgs::JointState {aka struct sensor_msgs::JointState_<std::allocator<void> >}[m[K' does not name a type
+   sensor_msgs::JointState::[01;31m[Kposition[m[K iJPose;
+                            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:10:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/sensor_msgs/JointState.h:52:18:[m[K [01;36m[Knote: [m[K'[01m[Ksensor_msgs::JointState_<std::allocator<void> >::position[m[K' declared here
+   _position_type [01;36m[Kposition[m[K;
+                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:59:28:[m[K [01;31m[Kerror: [m[K'[01m[Kvelocity[m[K' in '[01m[Ksensor_msgs::JointState {aka struct sensor_msgs::JointState_<std::allocator<void> >}[m[K' does not name a type
+   sensor_msgs::JointState::[01;31m[Kvelocity[m[K iVel;
+                            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:10:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/sensor_msgs/JointState.h:55:18:[m[K [01;36m[Knote: [m[K'[01m[Ksensor_msgs::JointState_<std::allocator<void> >::velocity[m[K' declared here
+   _velocity_type [01;36m[Kvelocity[m[K;
+                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:60:33:[m[K [01;31m[Kerror: [m[K'[01m[Kwrench[m[K' in '[01m[Kgeometry_msgs::WrenchStamped {aka struct geometry_msgs::WrenchStamped_<std::allocator<void> >}[m[K' does not name a type
+   geometry_msgs::WrenchStamped::[01;31m[Kwrench[m[K iWrench;
+                                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:12:0[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/geometry_msgs/WrenchStamped.h:44:16:[m[K [01;36m[Knote: [m[K'[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::wrench[m[K' declared here
+   _wrench_type [01;36m[Kwrench[m[K;
+                [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

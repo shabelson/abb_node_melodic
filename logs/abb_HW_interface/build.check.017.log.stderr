@@ -1,0 +1,13 @@
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMake Error at /home/shabelson/st4_ws/src/abb_HW_interface/CMakeLists.txt:143 (add_executable):
+  Cannot find source file:
+
+    include/abb_HW_control/abb_hw_interface.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: abb_hw_main
+CMake Error: Cannot determine link language for target "abb_hw_main".
+make: *** [cmake_check_build_system] Error 1

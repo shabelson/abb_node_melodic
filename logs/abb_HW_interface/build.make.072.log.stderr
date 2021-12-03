@@ -1,0 +1,248 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvoid abb_120_ns::AbbHWInterface::HandleForceLog(const ConstPtr&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator=[m[K' (operand types are '[01m[Kgeometry_msgs::WrenchStamped_<std::allocator<void> >::Ptr {aka boost::shared_ptr<geometry_msgs::WrenchStamped_<std::allocator<void> > >}[m[K' and '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K')
+ this->iWrench = msg->[01;31m[Kwrench[m[K;
+                      [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:547:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<T>&) [with T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( shared_ptr const & r ) BOOST_SP_NOEXCEPT
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:547:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' to '[01m[Kconst boost::shared_ptr<geometry_msgs::WrenchStamped_<std::allocator<void> > >&[m[K'
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:556:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = Y; T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=(shared_ptr<Y> const & r) BOOST_SP_NOEXCEPT
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:556:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;36m[Knote: [m[K  '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' is not derived from '[01m[Kconst boost::shared_ptr<X>[m[K'
+ this->iWrench = msg->[01;36m[Kwrench[m[K;
+                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:567:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&) [with Y = Y; T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( std::auto_ptr<Y> & r )
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:567:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;36m[Knote: [m[K  types '[01m[Kstd::auto_ptr<Y>[m[K' and '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' have incompatible cv-qualifiers
+ this->iWrench = msg->[01;36m[Kwrench[m[K;
+                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:576:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&) [with Y = Y; T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( std::auto_ptr<Y> && r )
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:576:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;36m[Knote: [m[K  types '[01m[Kstd::auto_ptr<Y>[m[K' and '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' have incompatible cv-qualifiers
+ this->iWrench = msg->[01;36m[Kwrench[m[K;
+                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:598:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( std::unique_ptr<Y, D> && r )
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:598:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;36m[Knote: [m[K  types '[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K' and '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' have incompatible cv-qualifiers
+ this->iWrench = msg->[01;36m[Kwrench[m[K;
+                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:607:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::movelib::unique_ptr<Y, D>) [with Y = Y; D = D; T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( boost::movelib::unique_ptr<Y, D> r )
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:607:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;36m[Knote: [m[K  '[01m[Kgeometry_msgs::Wrench_<std::allocator<void> >[m[K' is not derived from '[01m[Kboost::movelib::unique_ptr<Y, D>[m[K'
+ this->iWrench = msg->[01;36m[Kwrench[m[K;
+                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:658:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<T>&&) [with T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( shared_ptr && r ) BOOST_SP_NOEXCEPT
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:658:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' to '[01m[Kboost::shared_ptr<geometry_msgs::WrenchStamped_<std::allocator<void> > >&&[m[K'
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:665:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<Y>&&) [with Y = Y; T = geometry_msgs::WrenchStamped_<std::allocator<void> >]
+     shared_ptr & [01;36m[Koperator[m[K=( shared_ptr<Y> && r ) BOOST_SP_NOEXCEPT
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:665:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:96:22:[m[K [01;36m[Knote: [m[K  types '[01m[Kboost::shared_ptr<X>[m[K' and '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' have incompatible cv-qualifiers
+ this->iWrench = msg->[01;36m[Kwrench[m[K;
+                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/include/abb_HW_interface/abb_hw_interface.h:8[m[K,
+                 from [01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:2[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:683:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::detail::sp_nullptr_t) [with T = geometry_msgs::WrenchStamped_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     shared_ptr & [01;36m[Koperator[m[K=( boost::detail::sp_nullptr_t ) BOOST_SP_NOEXCEPT
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:683:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst _wrench_type {aka const geometry_msgs::Wrench_<std::allocator<void> >}[m[K' to '[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K'
+/usr/include/boost/smart_ptr/shared_ptr.hpp: In instantiation of '[01m[Kboost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = const geometry_msgs::PoseStamped_<std::allocator<void> >; T = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:80:18:[m[K   required from here
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kboost::shared_ptr<geometry_msgs::PoseStamped_<std::allocator<void> > >::shared_ptr(const boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >&)[m[K'
+         [01;31m[Kthis_type(r)[m[K.swap(*this);
+         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:673:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(boost::shared_ptr<Y>&&, boost::shared_ptr<T>::element_type*)
+     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> && r, element_type * p ) BOOST_SP_NOEXCEPT : px( p ), pn()
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:673:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  types '[01m[Kboost::shared_ptr<X>[m[K' and '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' have incompatible cv-qualifiers
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:643:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(boost::shared_ptr<Y>&&, typename boost::detail::sp_enable_if_convertible<Y, T>::type)
+     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> && r, typename boost::detail::sp_enable_if_convertible<Y,T>::type = boost::detail::sp_empty() )
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:643:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  types '[01m[Kboost::shared_ptr<X>[m[K' and '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' have incompatible cv-qualifiers
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:634:5:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>::shared_ptr(boost::shared_ptr<T>&&) [with T = geometry_msgs::PoseStamped_<std::allocator<void> >]
+     [01;36m[Kshared_ptr[m[K( shared_ptr && r ) BOOST_SP_NOEXCEPT : px( r.px ), pn()
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:634:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' to '[01m[Kboost::shared_ptr<geometry_msgs::PoseStamped_<std::allocator<void> > >&&[m[K'
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:532:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>::shared_ptr(boost::movelib::unique_ptr<Y, D>)
+     [01;36m[Kshared_ptr[m[K( boost::movelib::unique_ptr< Y, D > r ): px( r.get() ), pn()
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:532:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  '[01m[Kboost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' is not derived from '[01m[Kboost::movelib::unique_ptr<Y, D>[m[K'
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:516:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)
+     [01;36m[Kshared_ptr[m[K( std::unique_ptr< Y, D > && r ): px( r.get() ), pn()
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:516:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  types '[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K' and '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' have incompatible cv-qualifiers
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:484:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(std::auto_ptr<_Up>&&)
+     [01;36m[Kshared_ptr[m[K( std::auto_ptr<Y> && r ): px(r.get()), pn()
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:484:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  types '[01m[Kstd::auto_ptr<Y>[m[K' and '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' have incompatible cv-qualifiers
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:471:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(std::auto_ptr<_Up>&)
+     explicit [01;36m[Kshared_ptr[m[K( std::auto_ptr<Y> & r ): px(r.get()), pn()
+              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:471:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  types '[01m[Kstd::auto_ptr<Y>[m[K' and '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' have incompatible cv-qualifiers
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:464:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(const boost::shared_ptr<Y>&, boost::shared_ptr<T>::element_type*)
+     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> const & r, element_type * p ) BOOST_SP_NOEXCEPT : px( p ), pn( r.pn )
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:450:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(const boost::shared_ptr<Y>&, typename boost::detail::sp_enable_if_convertible<Y, T>::type)
+     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> const & r, typename boost::detail::sp_enable_if_convertible<Y,T>::type = boost::detail::sp_empty() )
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:450:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/boost/smart_ptr/shared_ptr.hpp: In substitution of '[01m[Ktemplate<class Y> boost::shared_ptr<geometry_msgs::PoseStamped_<std::allocator<void> > >::shared_ptr(const boost::shared_ptr<X>&, typename boost::detail::sp_enable_if_convertible<Y, geometry_msgs::PoseStamped_<std::allocator<void> > >::type) [with Y = const geometry_msgs::PoseStamped_<std::allocator<void> >][m[K':
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K   required from '[01m[Kboost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = const geometry_msgs::PoseStamped_<std::allocator<void> >; T = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K'
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:80:18:[m[K   required from here
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:450:5:[m[K [01;31m[Kerror: [m[Kno type named '[01m[Ktype[m[K' in '[01m[Kstruct boost::detail::sp_enable_if_convertible<const geometry_msgs::PoseStamped_<std::allocator<void> >, geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K'
+/usr/include/boost/smart_ptr/shared_ptr.hpp: In instantiation of '[01m[Kboost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = const geometry_msgs::PoseStamped_<std::allocator<void> >; T = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:80:18:[m[K   required from here
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:438:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(const boost::weak_ptr<Y>&, boost::detail::sp_nothrow_tag)
+     [01;36m[Kshared_ptr[m[K( weak_ptr<Y> const & r, boost::detail::sp_nothrow_tag )
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:438:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' is not derived from '[01m[Kconst boost::weak_ptr<Y>[m[K'
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:429:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(const boost::weak_ptr<Y>&)
+     explicit [01;36m[Kshared_ptr[m[K( weak_ptr<Y> const & r ): pn( r.pn ) // may throw
+              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:429:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' is not derived from '[01m[Kconst boost::weak_ptr<Y>[m[K'
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:422:5:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>::shared_ptr(const boost::shared_ptr<T>&) [with T = geometry_msgs::PoseStamped_<std::allocator<void> >]
+     [01;36m[Kshared_ptr[m[K( shared_ptr const & r ) BOOST_SP_NOEXCEPT : px( r.px ), pn( r.pn )
+     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:422:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' to '[01m[Kconst boost::shared_ptr<geometry_msgs::PoseStamped_<std::allocator<void> > >&[m[K'
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:410:32:[m[K [01;36m[Knote: [m[Kcandidate: template<class D, class A> boost::shared_ptr<T>::shared_ptr(boost::detail::sp_nullptr_t, D, A)
+     template<class D, class A> [01;36m[Kshared_ptr[m[K( boost::detail::sp_nullptr_t p, D d, A a ): px( p ), pn( p, d, a )
+                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:410:32:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:403:41:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D, class A> boost::shared_ptr<T>::shared_ptr(Y*, D, A)
+     template<class Y, class D, class A> [01;36m[Kshared_ptr[m[K( Y * p, D d, A a ): px( p ), pn( p, d, a )
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:403:41:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  mismatched types '[01m[KY*[m[K' and '[01m[Kboost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K'
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:395:23:[m[K [01;36m[Knote: [m[Kcandidate: template<class D> boost::shared_ptr<T>::shared_ptr(boost::detail::sp_nullptr_t, D)
+     template<class D> [01;36m[Kshared_ptr[m[K( boost::detail::sp_nullptr_t p, D d ): px( p ), pn( p, d )
+                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:395:23:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:388:32:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>::shared_ptr(Y*, D)
+     template<class Y, class D> [01;36m[Kshared_ptr[m[K( Y * p, D d ): px( p ), pn( p, d )
+                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:388:32:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  mismatched types '[01m[KY*[m[K' and '[01m[Kboost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K'
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:377:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>::shared_ptr(Y*)
+     explicit [01;36m[Kshared_ptr[m[K( Y * p ): px( p ), pn() // Y must be complete
+              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:377:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:558:9:[m[K [01;36m[Knote: [m[K  mismatched types '[01m[KY*[m[K' and '[01m[Kboost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K'
+         [01;36m[Kthis_type(r)[m[K.swap(*this);
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:370:21:[m[K [01;36m[Knote: [m[Kcandidate: constexpr boost::shared_ptr<T>::shared_ptr(boost::detail::sp_internal_constructor_tag, boost::shared_ptr<T>::element_type*, boost::detail::shared_count&&) [with T = geometry_msgs::PoseStamped_<std::allocator<void> >; boost::shared_ptr<T>::element_type = geometry_msgs::PoseStamped_<std::allocator<void> >]
+     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K( boost::detail::sp_internal_constructor_tag, element_type * px_, boost::detail::shared_count && pn_ ) BOOST_SP_NOEXCEPT : px( px_ ), pn( std::move( pn_ ) )
+                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:370:21:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:364:21:[m[K [01;36m[Knote: [m[Kcandidate: constexpr boost::shared_ptr<T>::shared_ptr(boost::detail::sp_internal_constructor_tag, boost::shared_ptr<T>::element_type*, const boost::detail::shared_count&) [with T = geometry_msgs::PoseStamped_<std::allocator<void> >; boost::shared_ptr<T>::element_type = geometry_msgs::PoseStamped_<std::allocator<void> >]
+     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K( boost::detail::sp_internal_constructor_tag, element_type * px_, boost::detail::shared_count const & pn_ ) BOOST_SP_NOEXCEPT : px( px_ ), pn( pn_ )
+                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:364:21:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:358:21:[m[K [01;36m[Knote: [m[Kcandidate: constexpr boost::shared_ptr<T>::shared_ptr(boost::detail::sp_nullptr_t) [with T = geometry_msgs::PoseStamped_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K( boost::detail::sp_nullptr_t ) BOOST_SP_NOEXCEPT : px( 0 ), pn()
+                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:358:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K' to '[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K'
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:352:21:[m[K [01;36m[Knote: [m[Kcandidate: constexpr boost::shared_ptr<T>::shared_ptr() [with T = geometry_msgs::PoseStamped_<std::allocator<void> >]
+     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K() BOOST_SP_NOEXCEPT : px( 0 ), pn()
+                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:352:21:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

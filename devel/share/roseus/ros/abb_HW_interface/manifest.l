@@ -1,0 +1,1 @@
+/home/shabelson/st4_ws/devel/.private/abb_HW_interface/share/roseus/ros/abb_HW_interface/manifest.l

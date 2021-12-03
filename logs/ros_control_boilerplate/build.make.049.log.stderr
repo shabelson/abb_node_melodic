@@ -1,0 +1,14 @@
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/src/generic_hw_control_loop.cpp:47:1:[m[K [01;31m[Kerror: [m[Kprototype for '[01m[Kros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(ros::NodeHandle&, boost::shared_ptr<hardware_interface::RobotHW>)[m[K' does not match any in class '[01m[Kros_control_boilerplate::GenericHWControlLoop[m[K'
+ [01;31m[KGenericHWControlLoop[m[K::GenericHWControlLoop(
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/src/generic_hw_control_loop.cpp:40:0[m[K:
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;31m[Kerror: [m[Kcandidates are: ros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(ros_control_boilerplate::GenericHWControlLoop&&)
+ class [01;31m[KGenericHWControlLoop[m[K
+       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:56:7:[m[K [01;31m[Kerror: [m[K                ros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(const ros_control_boilerplate::GenericHWControlLoop&)
+[01m[K/home/shabelson/st4_ws/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_control_loop.h:64:3:[m[K [01;31m[Kerror: [m[K                ros_control_boilerplate::GenericHWControlLoop::GenericHWControlLoop(ros::NodeHandle, boost::shared_ptr<hardware_interface::RobotHW>)
+   [01;31m[KGenericHWControlLoop[m[K(
+   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/generic_hw_control_loop.dir/src/generic_hw_control_loop.cpp.o] Error 1
+make[1]: *** [CMakeFiles/generic_hw_control_loop.dir/all] Error 2
+make: *** [all] Error 2

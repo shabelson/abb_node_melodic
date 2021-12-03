@@ -1,0 +1,1 @@
+/home/shabelson/st4_ws/devel/.private/industrial_msgs/lib/pkgconfig/industrial_msgs.pc

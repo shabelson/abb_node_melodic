@@ -1,0 +1,14 @@
+CMake Error at /home/shabelson/st4_ws/devel/share/industrial_robot_client/cmake/industrial_robot_clientConfig.cmake:113 (message):
+  Project 'industrial_robot_client' specifies
+  '/home/shabelson/st4_ws/src/industrial_core/industrial_robot_client/include'
+  as an include dir, which is not found.  It does neither exist as an
+  absolute directory nor in
+  '/home/shabelson/st4_ws/src/industrial_core/industrial_robot_client//home/shabelson/st4_ws/src/industrial_core/industrial_robot_client/include'.
+  Check the website 'http://ros.org/wiki/industrial_robot_client' for
+  information and consider reporting the problem.
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:13 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

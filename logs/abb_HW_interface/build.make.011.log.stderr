@@ -1,0 +1,7 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_main.cpp:21:83:[m[K [01;31m[Kerror: [m[Kinvalid use of '[01m[Kthis[m[K' in non-member function
+   ros_control_boilerplate::GenericHWControlLoop control_loop(nh,&abb_hw_interface,[01;31m[Kthis[m[K);
+                                                                                   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:[m[K In member function '[01m[Kvirtual void abb_120_ns::AbbHWInterface::read(ros::Duration&)[m[K':
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:124:3:[m[K [01;31m[Kerror: [m[K'[01m[KSClient_GetJoints[m[K' is not a class, namespace, or enumeration
+   [01;31m[KSClient_GetJoints[m[K::call(jointMsg);
+   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shabelson/st4_ws/src/abb_HW_interface/src/abb_hw_interface.cpp:125:28:[m[K [01;31m[Kerror: [m[Kno match for call to '[01m[K(ros::ServiceClient) (abb_node::robot_IsMoving::Request&)[m[K'
+   SClient_IsMoving(isMoving[01;31m[K)[m[K;
+                            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/abb_hw_main.dir/src/abb_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/abb_hw_main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/shabelson/st4_ws/devel/.private/industrial_robot_client/share/industrial_robot_client/cmake/industrial_robot_clientConfig-version.cmake
